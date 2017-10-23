@@ -6,3 +6,7 @@ scipy-notebook with the following additions:
 Run:
 
 `docker build -t commandlinegirl/scipy-notebook .`
+
+and
+
+`docker push commandlinegirl/scipy-notebook`
