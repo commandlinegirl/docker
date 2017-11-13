@@ -8,4 +8,7 @@ RUN apt-get update && \
 # Install nltk
 RUN pip install -U nltk
 
+# Install hmmlearn
+RUN pip install -U hmmlearn
+
 USER $NB_USER
