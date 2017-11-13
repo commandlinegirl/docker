@@ -12,8 +12,8 @@ and
 
 ### Running
 
-`docker run -it -p 8888:8888 ~:/home/data commandlinegirl/tensorflow`
+`docker run -it -p 8888:8888 -v ~:/home/data commandlinegirl/tensorflow`
 
 or the original:
 
-`docker run -it -p 8888:8888 ~:/home/data gcr.io/tensorflow/tensorflow`
+`docker run -it -p 8888:8888 -v ~:/home/data gcr.io/tensorflow/tensorflow`
