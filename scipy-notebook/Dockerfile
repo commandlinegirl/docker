@@ -11,4 +11,7 @@ RUN pip install -U nltk
 # Install hmmlearn
 RUN pip install -U hmmlearn
 
+# Install tensorflow
+RUN pip install tensorflow
+
 USER $NB_USER
